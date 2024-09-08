@@ -1,0 +1,52 @@
+.container-fluid {
+  /* background-image: url("src/assets/1.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* styles.css or styles.scss */
+.navbar,
+.inc {
+  font-family: "Inception", sans-serif;
+  /* font-size:; */
+}
+.font {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.custom-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container-fluid {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes myAnimi {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
